@@ -132,6 +132,9 @@ else:
         print('Policy %s is not yet implemented' % policy)
         exit(1)
 
+    # FIFO with Second Chance에서 사용되는 reference bit
+    access = []
+
     # track reference bits for clock
     ref   = {}
 
@@ -145,7 +148,11 @@ else:
         try:
             idx = memory.index(n)
             hits = hits + 1
-            if policy == 'LRU' or policy == 'MRU':
+            # FIFO with Second Chance 구현
+            if policy == 'FIFO':
+                # page에 access하면 reference 비트를 1로 설정
+                access[idx] = 1
+            elif policy == 'LRU' or policy == 'MRU':
                 update = memory.remove(n)
                 memory.append(n) # puts it on MRU side
         except:
@@ -158,7 +165,22 @@ else:
             # print('BUG count, cachesize:', count, cachesize)
             if count == cachesize:
                 # must replace
-                if policy == 'FIFO' or policy == 'LRU':
+                # FIFO with Second Chance 구현
+                if policy == 'FIFO':
+                    # page를 교체할 때까지 반복
+                    while True:
+                        i = 0  # memory와 access 리스트에 접근하기 위한 인덱스
+                        for page in memory:
+                            if access[i] == 0:  # reference 비트가 0인 경우
+                                victim = memory.pop(i)  # 메모리에서 제거
+                                access.pop(i)  # 해당하는 reference 비트 제거
+                                break  # 교체되었으므로 루프 종료
+                            else:  # reference 비트를 0으로 설정하여 두 번재 기회를 부여
+                                access[i] = 0
+                            i += 1
+                        if victim != -1:  # while 루프를 나오기 위한 조건
+                            break
+                elif policy == 'LRU':
                     victim = memory.pop(0)
                 elif policy == 'MRU':
                     victim = memory.pop(count-1)
@@ -246,6 +268,9 @@ else:
 
             # now add to memory
             memory.append(n)
+            # cold miss이거나 page가 교체되어 새로 페이지에 대한 reference 비트 추가
+            if len(access) < cachesize:
+                access.append(0)
             if cdebug:
                 print('LEN (a)', len(memory))
             if victim != -1:
@@ -258,7 +283,7 @@ else:
             ref[n] += 1
             if ref[n] > clockbits:
                 ref[n] = clockbits
-        
+
         if cdebug:
             print('REF (a)', ref)
 
@@ -275,6 +300,7 @@ else:
     
     
     
+
 
 
 

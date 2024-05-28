@@ -121,6 +121,8 @@ found:
   return p;
 }
 
+
+void printpt(int pid);
 //PAGEBREAK: 32
 // Set up first user process.
 void
@@ -633,4 +635,29 @@ procdump(void)
   }
 }
 
+// printpt 함수 구현
+void printpt(int pid) {
+    struct proc *p = myproc();  // 현재 실행 중인 프로세스를 가져옴
+    if(p->pid != pid) {
+        cprintf("Error: PID does not match current process.\n");
+        return;
+    }
 
+    pde_t *pgdir = p->pgdir;
+    cprintf("START PAGE TABLE (pid %d)\n", pid);
+    for(int i = 0; i < NPDENTRIES; i++) {
+        if((pgdir[i] & PTE_P) && (pgdir[i] & PTE_U)) { // 사용자 메모리 부분만 탐색
+            pte_t *pt = (pte_t*)P2V(PTE_ADDR(pgdir[i]));
+            for(int j = 0; j < NPTENTRIES; j++) {
+                if(pt[j] & PTE_P) { // 유효한 페이지 테이블 엔트리만 출력
+                    cprintf("%x P %c %c %x\n", 
+                            (i << 10) + j, // 가상 페이지 번호
+                            (pt[j] & PTE_U) ? 'U' : 'K', // 사용자 모드 접근 가능 여부
+                            (pt[j] & PTE_W) ? 'W' : '-', // 쓰기 가능 여부
+                            PTE_ADDR(pt[j])); // 물리 페이지 번호
+                }
+            }
+        }
+    }
+    cprintf("END PAGE TABLE\n");
+}

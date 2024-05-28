@@ -1860,3 +1860,87 @@ git commit -m "initial commit
 c
 
 
+git add .
+sudo git commit -m "처음"
+git push origin master
+mkdir -p .git/logs/refs/remotes/origin/master
+ls -ld .git .git/logs .git/logs/refs .git/logs/refs/remotes .git/logs/refs/remotes/origin
+sudo chown -R $(whoami):$(whoami) .git
+sudo chmod -R u+rwX .git
+git push origin master
+git config credential.helper store
+git push origin master
+git config --global credential.helper store
+got config --global --list
+git config --global --list
+git push origin master
+git branch
+git checkout -b main
+git branch
+git add .
+git commit
+git add .
+git commit
+git push origin main
+git add .
+git commit
+git push origin main
+git checkout main
+git pull origin main
+git add .
+git commit
+git push origin main
+git checkout master
+git checkout -b main
+git push -u origin main
+git checkout master
+git branch
+git config --global --list
+git push origin master
+python3 scheduler.py
+cd ostep-homework
+python3 scheduler.py -j 7 -p FIFO -l 6,2,13,22,12,5,2 -c
+python3 --version
+cd cpu-sched
+python3 scheduler.py -j 7 -p FIFO -l 6,2,13,22,12,5,2 -c\
+python3 scheduler.py -j 7 -p FIFO -l 6,2,13,22,12,5,2 -c
+python3 scheduler.py -j 7 -p FIFO -l 6,2,13,22,12,5,2 -a 0,3,3,4,17,32,46 -c
+python3 scheduler.py -j 7 -p FIFO -l 6,2,13,22,12,5,2 -a 0,3,3,4,17,32,46 -c -s 100
+python3 scheduler.py -j 7 -p RR -q 2 -l 6,2,13,22,12,5,2 -c
+python3 scheduler.py -j 7 -p SJF -l 6,2,13,22,12,5,2 -c
+python3 scheduler.py -j 7 -p SJF -l 6,2,13,22,12,5,2 -a 0,3,3,4,17,32,46 -c
+cd ostep-homework
+cd vm-beyondphys-policy
+vi paging-policy3
+python3 paging_policy.py --policy=FIFO --addresses=0,4,1,4,2,4,3 --cachesize=3 --compute
+python3 paging_policy3.py --policy=FIFO --addresses=0,4,1,4,2,4,3 --cachesize=3 --compute
+python3 paging-policy3.py --policy=FIFO --addresses=0,4,1,4,2,4,3 --cachesize=3 --compute
+rm paging-policy3
+vi paging-policy3.py
+python3 paging-policy3.py --policy=FIFO --addresses=0,4,1,4,2,4,3 --cachesize=3 --compute
+python3 paging-policy.py --policy=FIFO --addresses=0,4,1,4,2,4,3 --cachesize=3 --compute
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image kernel
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh

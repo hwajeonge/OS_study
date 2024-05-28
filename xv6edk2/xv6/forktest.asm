@@ -44,7 +44,7 @@ forktest(void)
 
   printf(1, "fork test\n");
   37:	83 ec 08             	sub    $0x8,%esp
-  3a:	68 48 04 00 00       	push   $0x448
+  3a:	68 50 04 00 00       	push   $0x450
   3f:	6a 01                	push   $0x1
   41:	e8 ba ff ff ff       	call   0 <printf>
   46:	83 c4 10             	add    $0x10,%esp
@@ -79,7 +79,7 @@ forktest(void)
     printf(1, "fork claimed to work N times!\n", N);
   84:	83 ec 04             	sub    $0x4,%esp
   87:	68 e8 03 00 00       	push   $0x3e8
-  8c:	68 54 04 00 00       	push   $0x454
+  8c:	68 5c 04 00 00       	push   $0x45c
   91:	6a 01                	push   $0x1
   93:	e8 68 ff ff ff       	call   0 <printf>
   98:	83 c4 10             	add    $0x10,%esp
@@ -94,7 +94,7 @@ forktest(void)
   a7:	79 17                	jns    c0 <forktest+0x93>
       printf(1, "wait stopped early\n");
   a9:	83 ec 08             	sub    $0x8,%esp
-  ac:	68 73 04 00 00       	push   $0x473
+  ac:	68 7b 04 00 00       	push   $0x47b
   b1:	6a 01                	push   $0x1
   b3:	e8 48 ff ff ff       	call   0 <printf>
   b8:	83 c4 10             	add    $0x10,%esp
@@ -113,7 +113,7 @@ forktest(void)
   d2:	74 17                	je     eb <forktest+0xbe>
     printf(1, "wait got too many\n");
   d4:	83 ec 08             	sub    $0x8,%esp
-  d7:	68 87 04 00 00       	push   $0x487
+  d7:	68 8f 04 00 00       	push   $0x48f
   dc:	6a 01                	push   $0x1
   de:	e8 1d ff ff ff       	call   0 <printf>
   e3:	83 c4 10             	add    $0x10,%esp
@@ -123,7 +123,7 @@ forktest(void)
 
   printf(1, "fork test OK\n");
   eb:	83 ec 08             	sub    $0x8,%esp
-  ee:	68 9a 04 00 00       	push   $0x49a
+  ee:	68 a2 04 00 00       	push   $0x4a2
   f3:	6a 01                	push   $0x1
   f5:	e8 06 ff ff ff       	call   0 <printf>
   fa:	83 c4 10             	add    $0x10,%esp
@@ -676,3 +676,9 @@ SYSCALL(uthread_init)
  43f:	b8 18 00 00 00       	mov    $0x18,%eax
  444:	cd 40                	int    $0x40
  446:	c3                   	ret    
+
+00000447 <printpt>:
+SYSCALL(printpt)
+ 447:	b8 19 00 00 00       	mov    $0x19,%eax
+ 44c:	cd 40                	int    $0x40
+ 44e:	c3                   	ret    

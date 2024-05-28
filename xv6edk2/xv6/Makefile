@@ -197,8 +197,8 @@ UPROGS=\
 	_zombie\
 	_hello\
 	_test\
-	_uthread
-
+	_uthread\
+	_recurse
 
 
 fs.img: mkfs README $(UPROGS)

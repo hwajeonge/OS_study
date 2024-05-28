@@ -128,3 +128,10 @@ sys_uthread_init(void)
     return 0;
 }
 
+int sys_printpt(void) {
+    int pid;
+    if(argint(0, &pid) < 0)
+        return -1;
+    printpt(pid);
+    return 0;
+}

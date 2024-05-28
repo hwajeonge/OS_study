@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1714573022,,"wq"
+|2,0,1716873365,,"wq"
 :Wq
-|2,0,1714572734,,"Wq"
+|2,0,1716872395,,"Wq"
 :WQ
-|2,0,1714492512,,"WQ"
+|2,0,1716330074,,"WQ"
 :21
 |2,0,1713405962,,"21"
 :q
@@ -47,234 +47,527 @@
 	w
 |3,0,32,0,1,0,1714492537,"w"
 ""-	CHAR	0
-	    p->scheduler = (uint)func;
-|3,1,36,0,1,0,1714570575,"    p->scheduler = (uint)func;"
+	n
+|3,1,36,0,1,0,1716292783,"n"
 
 # File marks:
-'0  34  0  ~/xv6edk2/xv6/uthread.h
-|4,48,34,0,1714574066,"~/xv6edk2/xv6/uthread.h"
-'1  123  0  ~/xv6edk2/xv6/uthread.c
-|4,49,123,0,1714573022,"~/xv6edk2/xv6/uthread.c"
-'2  42  3  ~/xv6edk2/xv6/uthread.c
-|4,50,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
-'3  42  3  ~/xv6edk2/xv6/uthread.c
-|4,51,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
-'4  43  0  ~/xv6edk2/xv6/uthread.c
-|4,52,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
-'5  43  0  ~/xv6edk2/xv6/uthread.c
-|4,53,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
-'6  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,54,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
-'7  33  6  ~/xv6edk2/xv6/usys.S
-|4,55,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
-'8  39  10  ~/xv6edk2/xv6/user.h
-|4,56,39,10,1714572014,"~/xv6edk2/xv6/user.h"
-'9  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,57,130,0,1714571975,"~/xv6edk2/xv6/sysproc.c"
+'0  24  3  ~/xv6edk2/xv6/recurse.c
+|4,48,24,3,1716873365,"~/xv6edk2/xv6/recurse.c"
+'1  33  0  ~/xv6edk2/xv6/recurse.c
+|4,49,33,0,1716873306,"~/xv6edk2/xv6/recurse.c"
+'2  33  0  ~/xv6edk2/xv6/recurse.c
+|4,50,33,0,1716873306,"~/xv6edk2/xv6/recurse.c"
+'3  663  0  ~/xv6edk2/xv6/proc.c
+|4,51,663,0,1716872470,"~/xv6edk2/xv6/proc.c"
+'4  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,52,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+'5  638  0  ~/xv6edk2/xv6/proc.c
+|4,53,638,0,1716871175,"~/xv6edk2/xv6/proc.c"
+'6  677  0  ~/xv6edk2/xv6/proc.c
+|4,54,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+'7  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,55,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+'8  53  16  ~/xv6edk2/xv6/proc.h
+|4,56,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+'9  56  21  ~/xv6edk2/xv6/proc.h
+|4,57,56,21,1716869884,"~/xv6edk2/xv6/proc.h"
 
 # Jumplist (newest first):
--'  34  0  ~/xv6edk2/xv6/uthread.h
-|4,39,34,0,1714574066,"~/xv6edk2/xv6/uthread.h"
--'  123  0  ~/xv6edk2/xv6/uthread.c
-|4,39,123,0,1714573022,"~/xv6edk2/xv6/uthread.c"
--'  123  0  ~/xv6edk2/xv6/uthread.c
-|4,39,123,0,1714573022,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714573017,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714573017,"~/xv6edk2/xv6/uthread.c"
--'  42  3  ~/xv6edk2/xv6/uthread.c
-|4,39,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
--'  42  3  ~/xv6edk2/xv6/uthread.c
-|4,39,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
--'  42  3  ~/xv6edk2/xv6/uthread.c
-|4,39,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
--'  42  3  ~/xv6edk2/xv6/uthread.c
-|4,39,42,3,1714573007,"~/xv6edk2/xv6/uthread.c"
--'  43  0  ~/xv6edk2/xv6/uthread.c
-|4,39,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
--'  43  0  ~/xv6edk2/xv6/uthread.c
-|4,39,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
--'  43  0  ~/xv6edk2/xv6/uthread.c
-|4,39,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
--'  43  0  ~/xv6edk2/xv6/uthread.c
-|4,39,43,0,1714572735,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714572707,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714572707,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714572707,"~/xv6edk2/xv6/uthread.c"
--'  1  0  ~/xv6edk2/xv6/uthread.c
-|4,39,1,0,1714572707,"~/xv6edk2/xv6/uthread.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  130  0  ~/xv6edk2/xv6/sysproc.c
-|4,39,130,0,1714572700,"~/xv6edk2/xv6/sysproc.c"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  33  6  ~/xv6edk2/xv6/usys.S
-|4,39,33,6,1714572068,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  9  6  ~/xv6edk2/xv6/usys.S
-|4,39,9,6,1714572020,"~/xv6edk2/xv6/usys.S"
--'  39  10  ~/xv6edk2/xv6/user.h
-|4,39,39,10,1714572014,"~/xv6edk2/xv6/user.h"
--'  39  10  ~/xv6edk2/xv6/user.h
-|4,39,39,10,1714572014,"~/xv6edk2/xv6/user.h"
--'  39  10  ~/xv6edk2/xv6/user.h
-|4,39,39,10,1714572014,"~/xv6edk2/xv6/user.h"
+-'  24  3  ~/xv6edk2/xv6/recurse.c
+|4,39,24,3,1716873365,"~/xv6edk2/xv6/recurse.c"
+-'  33  0  ~/xv6edk2/xv6/recurse.c
+|4,39,33,0,1716873350,"~/xv6edk2/xv6/recurse.c"
+-'  33  0  ~/xv6edk2/xv6/recurse.c
+|4,39,33,0,1716873306,"~/xv6edk2/xv6/recurse.c"
+-'  663  0  ~/xv6edk2/xv6/proc.c
+|4,39,663,0,1716872470,"~/xv6edk2/xv6/proc.c"
+-'  663  0  ~/xv6edk2/xv6/proc.c
+|4,39,663,0,1716872470,"~/xv6edk2/xv6/proc.c"
+-'  663  0  ~/xv6edk2/xv6/proc.c
+|4,39,663,0,1716872470,"~/xv6edk2/xv6/proc.c"
+-'  663  0  ~/xv6edk2/xv6/proc.c
+|4,39,663,0,1716872470,"~/xv6edk2/xv6/proc.c"
+-'  638  0  ~/xv6edk2/xv6/proc.c
+|4,39,638,0,1716872410,"~/xv6edk2/xv6/proc.c"
+-'  638  0  ~/xv6edk2/xv6/proc.c
+|4,39,638,0,1716872410,"~/xv6edk2/xv6/proc.c"
+-'  638  0  ~/xv6edk2/xv6/proc.c
+|4,39,638,0,1716872410,"~/xv6edk2/xv6/proc.c"
+-'  638  0  ~/xv6edk2/xv6/proc.c
+|4,39,638,0,1716872410,"~/xv6edk2/xv6/proc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716872396,"~/xv6edk2/xv6/sysproc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  677  0  ~/xv6edk2/xv6/proc.c
+|4,39,677,0,1716871175,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  218  0  ~/xv6edk2/xv6/proc.c
+|4,39,218,0,1716871086,"~/xv6edk2/xv6/proc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  137  0  ~/xv6edk2/xv6/sysproc.c
+|4,39,137,0,1716871072,"~/xv6edk2/xv6/sysproc.c"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
+-'  53  16  ~/xv6edk2/xv6/proc.h
+|4,39,53,16,1716869923,"~/xv6edk2/xv6/proc.h"
 
 # History of marks within files (newest to oldest):
+
+> ~/xv6edk2/xv6/recurse.c
+	*	1716873364	0
+	"	24	3
+	^	24	4
+	.	24	3
+	+	32	1
+	+	30	5
+	+	24	3
+
+> ~/xv6edk2/xv6/proc.c
+	*	1716872456	0
+	"	663	0
+	^	663	1
+	.	663	0
+	+	325	0
+	+	414	0
+	+	637	28
+	+	637	69
+	+	637	129
+	+	637	81
+	+	637	118
+	+	637	129
+	+	637	29
+	+	20	55
+	+	21	0
+	+	68	367
+	+	637	366
+	+	68	1
+	+	637	206
+	+	637	205
+	+	638	0
+	+	96	0
+	+	95	84
+	+	273	70
+	+	517	346
+	+	517	134
+	+	517	212
+	+	517	290
+	+	519	3
+	+	518	0
+	+	638	135
+	+	638	32
+	+	638	982
+	+	638	0
+	+	125	21
+	+	638	39
+	+	638	0
+	+	663	0
+
+> ~/xv6edk2/xv6/sysproc.c
+	*	1716872395	0
+	"	137	0
+	^	137	1
+	.	137	1
+	+	92	0
+	+	93	18
+	+	93	34
+	+	93	19
+	+	93	58
+	+	93	103
+	+	93	111
+	+	93	77
+	+	93	122
+	+	104	0
+	+	103	0
+	+	113	0
+	+	107	20
+	+	105	30
+	+	115	633
+	+	115	0
+	+	115	161
+	+	115	3
+	+	115	135
+	+	115	18
+	+	115	122
+	+	115	3
+	+	129	0
+	+	129	1
+	+	131	110
+	+	137	1
+
+> ~/xv6edk2/xv6/proc.h
+	*	1716869922	0
+	"	53	16
+	^	53	17
+	.	54	0
+	+	52	52
+	+	52	13
+	+	54	0
+	+	53	17
+	+	53	18
+	+	56	22
+	+	57	0
+	+	54	0
+
+> ~/xv6edk2/xv6/defs.h
+	*	1716869718	0
+	"	126	16
+	^	126	17
+	.	126	21
+	+	126	0
+	+	123	24
+	+	124	25
+	+	125	4
+	+	126	21
+
+> ~/xv6edk2/xv6/Makefile
+	*	1716869556	0
+	"	201	6
+	^	201	7
+	.	201	7
+	+	1	0
+	+	198	9
+	+	255	17
+	+	305	22
+	+	198	9
+	+	198	7
+	+	198	14
+	+	198	8
+	+	199	7
+	+	200	8
+	+	201	46
+	+	201	531
+	+	201	475
+	+	201	46
+	+	201	527
+	+	201	444
+	+	201	70
+	+	201	205
+	+	201	404
+	+	201	492
+	+	201	405
+	+	201	493
+	+	159	9
+	+	201	493
+	+	201	405
+	+	201	205
+	+	201	66
+	+	201	444
+	+	201	550
+	+	202	0
+	+	201	69
+	+	201	212
+	+	201	424
+	+	201	511
+	+	202	0
+	+	172	0
+	+	170	37
+	+	41	0
+	+	40	18
+	+	40	33
+	+	40	81
+	+	40	114
+	+	41	0
+	+	161	0
+	+	132	36
+	+	132	300
+	+	135	149
+	+	136	0
+	+	134	90
+	+	134	46
+	+	134	68
+	+	135	0
+	+	134	90
+	+	134	150
+	+	134	25
+	+	134	70
+	+	134	24
+	+	134	46
+	+	134	120
+	+	134	173
+	+	161	0
+	+	134	0
+	+	255	0
+	+	201	10
+	+	200	9
+	+	201	7
+
+> ~/xv6edk2/xv6/syscall.c
+	*	1716869327	0
+	"	137	23
+	^	137	24
+	.	137	25
+	+	107	32
+	+	134	24
+	+	135	23
+	+	108	33
+	+	134	28
+	+	135	40
+	+	135	75
+	+	108	34
+	+	109	0
+	+	136	37
+	+	110	0
+	+	109	34
+	+	10	0
+	+	11	0
+	+	110	28
+	+	137	25
+
+> ~/xv6edk2/xv6/usys.S
+	*	1716869252	0
+	"	35	15
+	^	35	16
+	.	35	14
+	+	32	14
+	+	33	13
+	+	34	0
+	+	34	21
+	+	35	0
+	+	34	18
+	+	3	111
+	+	3	181
+	+	3	108
+	+	3	129
+	+	3	146
+	+	3	177
+	+	3	180
+	+	3	176
+	+	3	177
+	+	9	6
+	+	35	14
+
+> ~/xv6edk2/xv6/user.h
+	*	1716869237	0
+	"	29	20
+	^	29	21
+	.	29	20
+	+	26	22
+	+	27	21
+	+	23	16
+	+	26	3
+	+	27	23
+	+	27	54
+	+	27	23
+	+	28	36
+	+	43	11
+	+	29	20
+
+> ~/xv6edk2/xv6/syscall.h
+	*	1716869171	0
+	"	26	21
+	^	26	22
+	.	26	21
+	+	23	21
+	+	24	21
+	+	25	0
+	+	25	27
+	+	26	21
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy3.py
+	*	1716332848	0
+	"	245	0
+	^	245	0
+	.	244	13
+	+	244	13
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy3
+	*	1716332699	0
+	"	245	0
+	^	245	0
+	.	244	13
+	+	244	13
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy
+	*	1716331990	0
+	"	1	0
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy2.py
+	*	1716331958	0
+	"	269	0
+	^	269	0
+	.	268	13
+	+	268	13
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy1.py
+	*	1716328257	0
+	"	296	0
+	^	296	0
+	.	295	0
+	+	295	0
+
+> ~/ostep-homework/vm-beyondphys-policy/paging-policy.py
+	*	1716295434	0
+	"	160	0
+	^	160	0
+	.	160	0
+	+	204	13
+	+	178	13
+	+	181	13
+	+	155	13
+	+	160	0
 
 > ~/xv6edk2/xv6/uthread.h
 	*	1714573316	0
@@ -384,230 +677,9 @@
 	+	42	4
 	+	122	1
 
-> ~/xv6edk2/xv6/sysproc.c
-	*	1714572699	0
-	"	130	0
-	^	130	0
-	.	129	1
-	+	92	0
-	+	93	18
-	+	93	34
-	+	93	19
-	+	93	58
-	+	93	103
-	+	93	111
-	+	93	77
-	+	93	122
-	+	104	0
-	+	103	0
-	+	113	0
-	+	107	20
-	+	105	30
-	+	115	633
-	+	115	0
-	+	115	161
-	+	115	3
-	+	115	135
-	+	115	18
-	+	115	122
-	+	115	3
-	+	129	0
-	+	129	1
-
-> ~/xv6edk2/xv6/usys.S
-	*	1714572024	0
-	"	33	6
-	^	9	7
-	.	9	6
-	+	32	14
-	+	33	13
-	+	34	0
-	+	34	21
-	+	35	0
-	+	34	18
-	+	3	111
-	+	3	181
-	+	3	108
-	+	3	129
-	+	3	146
-	+	3	177
-	+	3	180
-	+	3	176
-	+	3	177
-	+	9	6
-
-> ~/xv6edk2/xv6/user.h
-	*	1714571997	0
-	"	39	10
-	^	42	11
-	.	42	11
-	+	26	22
-	+	27	21
-	+	23	16
-	+	26	3
-	+	27	23
-	+	27	54
-	+	27	23
-	+	28	36
-	+	42	11
-
-> ~/xv6edk2/xv6/syscall.h
-	*	1714571898	0
-	"	24	20
-	^	25	27
-	.	25	27
-	+	23	21
-	+	24	21
-	+	25	0
-	+	25	27
-
-> ~/xv6edk2/xv6/syscall.c
-	*	1714571873	0
-	"	98	0
-	^	10	0
-	.	11	0
-	+	107	32
-	+	133	24
-	+	134	23
-	+	108	33
-	+	133	28
-	+	134	40
-	+	134	75
-	+	108	34
-	+	109	0
-	+	135	37
-	+	110	0
-	+	109	34
-	+	10	0
-	+	11	0
-
-> ~/xv6edk2/xv6/proc.h
-	*	1714571699	0
-	"	54	0
-	^	54	2
-	.	54	2
-	+	52	52
-	+	52	13
-	+	55	0
-	+	53	17
-	+	54	2
-
-> ~/xv6edk2/xv6/proc.c
-	*	1714571329	0
-	"	636	0
-	^	636	0
-	.	636	0
-	+	323	0
-	+	412	0
-	+	635	28
-	+	635	69
-	+	635	129
-	+	635	81
-	+	635	118
-	+	635	129
-	+	635	29
-	+	20	55
-	+	21	0
-	+	68	367
-	+	635	366
-	+	68	1
-	+	635	206
-	+	635	205
-	+	636	0
-	+	96	0
-	+	95	84
-	+	271	70
-	+	515	346
-	+	515	134
-	+	515	212
-	+	515	290
-	+	517	3
-	+	516	0
-	+	636	135
-	+	636	0
-
-> ~/xv6edk2/xv6/defs.h
-	*	1714571210	0
-	"	131	3
-	^	125	4
-	.	125	4
-	+	126	0
-	+	123	24
-	+	124	25
-	+	125	4
-
 > ~/xv6edk2/xv6/syspro.c
 	*	1714570853	0
 	"	1	0
-
-> ~/xv6edk2/xv6/Makefile
-	*	1714570096	0
-	"	154	0
-	^	255	0
-	.	255	0
-	+	1	0
-	+	198	9
-	+	255	17
-	+	305	22
-	+	198	9
-	+	198	7
-	+	198	14
-	+	198	8
-	+	199	7
-	+	200	8
-	+	201	46
-	+	201	531
-	+	201	475
-	+	201	46
-	+	201	527
-	+	201	444
-	+	201	70
-	+	201	205
-	+	201	404
-	+	201	492
-	+	201	405
-	+	201	493
-	+	159	9
-	+	201	493
-	+	201	405
-	+	201	205
-	+	201	66
-	+	201	444
-	+	201	550
-	+	202	0
-	+	201	69
-	+	201	212
-	+	201	424
-	+	201	511
-	+	202	0
-	+	172	0
-	+	170	37
-	+	41	0
-	+	40	18
-	+	40	33
-	+	40	81
-	+	40	114
-	+	41	0
-	+	161	0
-	+	132	36
-	+	132	300
-	+	135	149
-	+	136	0
-	+	134	90
-	+	134	46
-	+	134	68
-	+	135	0
-	+	134	90
-	+	134	150
-	+	134	25
-	+	134	70
-	+	134	24
-	+	134	46
-	+	134	120
-	+	134	173
-	+	161	0
-	+	134	0
-	+	255	0
 
 > ~/xv6edk2/xv6/trap.c
 	*	1714568259	0

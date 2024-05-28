@@ -50,9 +50,11 @@ struct proc {
   struct inode *cwd;           // Current directory
   char name[16];               // Process name (debugging)
   int xstate;  // Exit statue for the process
-  uint scheduler;
-  
+  uint scheduler;  
 };
+
+void printpt(int pid);
+
 
 // Process memory is laid out contiguously, low addresses first:
 //   text

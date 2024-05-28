@@ -26,6 +26,7 @@ int uptime(void);
 void exit2(int status);
 int wait2(int *status);
 int uthread_init(void(*scheduer)(void));
+int printpt(int pid);
 
 // ulib.c
 int stat(char*, struct stat*);
