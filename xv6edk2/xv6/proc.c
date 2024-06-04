@@ -8,6 +8,7 @@
 #include "spinlock.h"
 #include "debug.h"
 
+
 struct {
   struct spinlock lock;
   struct proc proc[NPROC];
@@ -122,7 +123,7 @@ found:
 }
 
 
-void printpt(int pid);
+int printpt(int pid);
 //PAGEBREAK: 32
 // Set up first user process.
 void
@@ -635,29 +636,46 @@ procdump(void)
   }
 }
 
-// printpt 함수 구현
-void printpt(int pid) {
-    struct proc *p = myproc();  // 현재 실행 중인 프로세스를 가져옴
-    if(p->pid != pid) {
-        cprintf("Error: PID does not match current process.\n");
-        return;
+
+pte_t* walkpgdir(pde_t* pgdir, const void* va, int alloc);
+int
+printpt(int pid)
+{
+    struct proc* p = 0;
+    pde_t* pgdir;
+    pte_t* pte;
+    uint va;
+    int found = 0;
+
+    // 프로세스 테이블에서 해당 pid의 프로세스를 찾기
+    acquire(&ptable.lock);
+    for (p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+        if (p->pid == pid) {
+            found = 1;
+            break;
+        }
+    }
+    release(&ptable.lock);
+
+    // 해당 프로세스가 존재하지 않거나, UNUSED 상태일 경우 -1 반환
+    if (!found || p->state == UNUSED) {
+        cprintf("Process with pid %d not found or is in UNUSED state\n", pid);
+        return -1;
     }
 
-    pde_t *pgdir = p->pgdir;
+    pgdir = p->pgdir;
+
     cprintf("START PAGE TABLE (pid %d)\n", pid);
-    for(int i = 0; i < NPDENTRIES; i++) {
-        if((pgdir[i] & PTE_P) && (pgdir[i] & PTE_U)) { // 사용자 메모리 부분만 탐색
-            pte_t *pt = (pte_t*)P2V(PTE_ADDR(pgdir[i]));
-            for(int j = 0; j < NPTENTRIES; j++) {
-                if(pt[j] & PTE_P) { // 유효한 페이지 테이블 엔트리만 출력
-                    cprintf("%x P %c %c %x\n", 
-                            (i << 10) + j, // 가상 페이지 번호
-                            (pt[j] & PTE_U) ? 'U' : 'K', // 사용자 모드 접근 가능 여부
-                            (pt[j] & PTE_W) ? 'W' : '-', // 쓰기 가능 여부
-                            PTE_ADDR(pt[j])); // 물리 페이지 번호
-                }
-            }
+    for (va = 0; va < KERNBASE; va += PGSIZE) {
+        pte = walkpgdir(pgdir, (void*)va, 0);
+        if (pte && (*pte & PTE_P)) {
+            cprintf("VA: 0x%x P %c %c PA: 0x%x\n",
+                va,
+                (*pte & PTE_U) ? 'U' : 'K',
+                (*pte & PTE_W) ? 'W' : '-',
+                PTE_ADDR(*pte));
         }
     }
     cprintf("END PAGE TABLE\n");
+    return 0;
 }

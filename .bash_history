@@ -1,155 +1,3 @@
-sudo apt-get update -y
-sudo apt-get install git make gcc wget qemu qemu-kvm gdb -y
-git clone https://github.com/moonjupark/xv6edk2.git
-cd xv6edk2
-make qemu-nox
-cd xv6
-make qemu-nox
-cd xv6edk
-cd xv6edk2
-cd xv6
-make qemu
-make qemu-nox
-cd xv6edk2
-cd xv6
-make qemu-nox-gdb
-sudo make qemu-nox-gdb
-make kernelmemfs
-cd ..
-mkdir -p image/efi/boot
-cp Build/MyLoaderPkg/X64/DEBUG_GCC5/X64/loader.efi image/efi/boot/bootx64.efi
-cp xv6/kernelmemfs image/kernel
-./run.sh
-ls
-cd xv6edk
-cd xv6edk2
-ls
-cd xv6
-ls
-echo Hello!
-cat README
-grep run README
-cat README | grep run | wc
-echo My New File >newfile
-cat newfile
-dbgrun.sh
-cd xv6edk2
-dbgrun.sh
-cd xv6
-dbgrun.sh
-cd xv6edk2
-make qemu-nox-gdb
-sudo make qemu-npx-gdb
-make qemu-nox-gdb\
-make qemu-nox-gdb
-cd .
-cd..
-cd ..
-cd xv6 && make qemu-nox-gdb
-gdb ./kernel
-gdb kernelmemfs
-cd xv6edk1
-cd xv6edk2
-cd xv6
-ls
-mv _hello.c hello.c
-sudo apt-install gcc
-vi Makefile
-cd xv6edk1
-cd xv6edk2
-cd xv6
-vi Makefile
-cd vx2edk2
-cd xv6edk2
-cd xv6
-vi Makefile
-cd xv6edk2
-cd xv6
-vi Makefile
-cd xv6edk2
-cd xv6
-vi _hello.c
-vi Makefile
-make kernelmemfs
-ls
-mv 
-mv _hello.c hello.c
-make kernelmemfs
-cd ..
-cp xb6/kernelmemfs image/kernel
-cp xv6/kernelmemfs image/kernel
-./run.sh
-lsllslssfsfsfs
-ls
-cd xv6
-ls
-xd xv6edk2
-cd xv6edk2
-cd xv6
-ls
-vi _hello.c
-vi Makefile
-mv _hello.c hello.c
-make kernelmemfs
-cd ..
-cp cp xv6/kernelmemfs image/kernel
-cp xv6/kernelmemfs image/kernel
-./run.sh
-ls
-cd xv6
-ls
-cd xv6edk2
-cd xv6
-vim hello.c
-ls
-gcc hello.c
-./a.out
-make kernelmemfs
-sudo make kernelmemfs
-cd ..
-vi Makefile
-cp xv6/kernelmemfs image/kernel
-./run.sh
-cd vx6edk2
-cd xv6edk2
-cd xv6
-vim Makefile
-ls
-vi Makefile
-mv _hello.c hello
-mv hello.c _hello.c
-make kernelmemfs
-cd ..
-cp xv6/kernelmemfs image/kernel
-./run.sh
-cd xv6edk2
-cd xv6
-ls
-make kernelmemfs
-mv _hello.c hello.c
-make kernelmemfs
-mv _hello.c hello.c
-vi _hello.c
-vi Makefile
-make kernelmemfs
-mv _hello.c hello.c
-make kernelmemfs
-ls
-mv hello.c _hello.c
-make kernelmemfs
-mv _hello.c hello.c
-make kernelmemfs
-re hello.c
-rm hello.c
-ls
-vi _hello,c
-vi _hello.c
-vi Makefile
-make kernelmemfs
-mv _hello.c hello.c
-make kernelmemfs
-cd ..
-cp xv6/kernelmemfs image/kernel
 ./run.sh
 ls
 cd xv6edk
@@ -1940,6 +1788,212 @@ cp xv6/kernelmemfs image/kernel
 ./run.sh
 cd xv6edk2
 cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+sudo git add -A
+sudo git commit -m "printpt systemcall"
+sudo git push origin +master
+git rebase -i HEAD~1
+git push origin +master
+git rebase --continue
+git rm --cached .git-credentials
+echo ".git-credentials" >> .gitignore
+git add .gitignore
+git commit -m "Add .git-credentials to .gitignore"
+git push origin master
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .git-credentials' --prune-empty --tag-name-filter cat -- --all
+git add -A
+git commint 
+sudo git commit
+git add -A
+git commit
+sudo git push origin +master
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+vi proc.c
+vi sysproc.c
+vi defs.h
+vi proc.c
+vi sysproc.c
+vi defs.h
+vi proc.h
+vi syscall.h
+vi usys.S
+vi user.h
+vi usys.S
+vi syscall.c
+vi recurse.c
+vi Makefile
+make clean
+make
+vi proc.c
+vi defs.h
+make clean
+make
+vi proc.h
+vi proc.c
+vi proc.h
+make clean
+make
+vi sysproc.c
+vi proc.c
+make clean
+make
+vi sysproc.c
+vi proc.c
+make clean
+make
+vi recurse.c
+make clean
+make
+cd xv6edk2
+cd xv6
+rm exec.c
+vi exec.c
+make clear
+make
+make clear
+make
+git add -A
+sudo git add exec.c
+sudo git status
+sudo git commit "스택 재정렬"
+sudo git commit -m "스택 재정렬"
+sudo git push origin master
+cd xv6edk2
+cd xv6
+rm exec.c
+vi exec.c
+rm trap.c
+vi trap.c
+rm vm.c
+vi vm.c
+rm vm.c
+vi vm.c
+rm trap.c
+vi trap.c
+rm exec.c
+vi exec.c
+make clear
+make clean
+make
+vi sysproc.c
+vi proc.c
+vi recurse.c
+vi vm.c
+vi proc.c
+vi sysproc.c
+vi proc.c
+cd xv6edk2
+cd xv6
+traps.h
+vi traps.h
+make clean
+make
+vi proc.c
+vi syscall.c
+vi user.h
+make clean
+make
+vi proc.h
+make clean
+make
+vi defs.h
+make
+vi Makefile
+make
+vi Makefile
+make clean
+make
+ls -l vm.o
+nm vm.o | grep walkpgdir
+nm proc.o | grep walkpgdir
+vi Makefile
+nm kernel | grep walkpgdir
+make clean
+make
+nm vm.o | grep walkpgdir
+make clean
+make
+cd xv6edk2
+cd xv6
+make clean
+make
+make clean
+make
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kenrelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make
+make clear
+make
+cd xv6edk2
+cd xv6
+make kernelmemfs
+make
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+qemu-system-x86_64 -serial mon:stdio -kernel kernel-qemu
+make clean
+make
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+make clean
+make
+make clean
+make
 make kernelmemfs
 cd ..
 cp xv6/kernelmemfs image/kernel

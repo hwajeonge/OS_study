@@ -123,7 +123,7 @@ void            yield(void);
 void		exit2(int status);
 int 		wait2(int *status);
 int uthread_init(void);
-void printpt(int pid);
+int printpt(int pid);
 
 // swtch.S
 void            swtch(struct context**, struct context*);
