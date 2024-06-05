@@ -209,6 +209,7 @@ fork(void)
   np->sz = curproc->sz;
   np->parent = curproc;
   *np->tf = *curproc->tf;
+  np->stack_alloc = curproc->stack_alloc;
 
   // Clear %eax so that fork returns 0 in the child.
   np->tf->eax = 0;
@@ -637,7 +638,7 @@ procdump(void)
 }
 
 
-pte_t* walkpgdir(pde_t* pgdir, const void* va, int alloc);
+pte_t *walkpgdir(pde_t *pgdir, const void *va, int alloc);
 int
 printpt(int pid)
 {
@@ -669,10 +670,10 @@ printpt(int pid)
     for (va = 0; va < KERNBASE; va += PGSIZE) {
         pte = walkpgdir(pgdir, (void*)va, 0);
         if (pte && (*pte & PTE_P)) {
-            cprintf("VA: 0x%x P %c %c PA: 0x%x\n",
+            cprintf("VA: 0x%x P %s %s PA: 0x%x\n",
                 va,
-                (*pte & PTE_U) ? 'U' : 'K',
-                (*pte & PTE_W) ? 'W' : '-',
+                (*pte & PTE_U) ? "U" : "K",
+                (*pte & PTE_W) ? "W" : " - ",
                 PTE_ADDR(*pte));
         }
     }

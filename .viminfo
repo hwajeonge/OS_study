@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1717502639,,"wq"
+|2,0,1717591467,,"wq"
 :Wq
 |2,0,1717464866,,"Wq"
 :WQ
@@ -51,38 +51,152 @@
 |3,0,36,0,1,0,1716292783,"n"
 
 # File marks:
-'0  126  2  ~/xv6edk2/xv6/defs.h
-|4,48,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
-'1  216  0  ~/xv6edk2/xv6/Makefile
-|4,49,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
-'2  46  0  ~/xv6edk2/xv6/Makefile
-|4,50,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
-'3  46  0  ~/xv6edk2/xv6/Makefile
-|4,51,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
-'4  25  6  ~/xv6edk2/xv6/Makefile
-|4,52,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
-'5  25  6  ~/xv6edk2/xv6/Makefile
-|4,53,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
-'6  25  6  ~/xv6edk2/xv6/Makefile
-|4,54,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
+'0  24  3  ~/xv6edk2/xv6/recurse.c
+|4,48,24,3,1717591467,"~/xv6edk2/xv6/recurse.c"
+'1  35  15  ~/xv6edk2/xv6/usys.S
+|4,49,35,15,1717589645,"~/xv6edk2/xv6/usys.S"
+'2  29  20  ~/xv6edk2/xv6/user.h
+|4,50,29,20,1717589630,"~/xv6edk2/xv6/user.h"
+'3  126  2  ~/xv6edk2/xv6/defs.h
+|4,51,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+'4  216  0  ~/xv6edk2/xv6/Makefile
+|4,52,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+'5  46  0  ~/xv6edk2/xv6/Makefile
+|4,53,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+'6  46  0  ~/xv6edk2/xv6/Makefile
+|4,54,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
 '7  25  6  ~/xv6edk2/xv6/Makefile
 |4,55,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
-'8  10  6  ~/xv6edk2/xv6/Makefile
-|4,56,10,6,1717465484,"~/xv6edk2/xv6/Makefile"
-'9  10  6  ~/xv6edk2/xv6/Makefile
-|4,57,10,6,1717465484,"~/xv6edk2/xv6/Makefile"
+'8  25  6  ~/xv6edk2/xv6/Makefile
+|4,56,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
+'9  25  6  ~/xv6edk2/xv6/Makefile
+|4,57,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
 
 # Jumplist (newest first):
+-'  24  3  ~/xv6edk2/xv6/recurse.c
+|4,39,24,3,1717591467,"~/xv6edk2/xv6/recurse.c"
+-'  30  5  ~/xv6edk2/xv6/recurse.c
+|4,39,30,5,1717591457,"~/xv6edk2/xv6/recurse.c"
+-'  35  15  ~/xv6edk2/xv6/usys.S
+|4,39,35,15,1717589645,"~/xv6edk2/xv6/usys.S"
+-'  35  15  ~/xv6edk2/xv6/usys.S
+|4,39,35,15,1717589645,"~/xv6edk2/xv6/usys.S"
+-'  29  20  ~/xv6edk2/xv6/user.h
+|4,39,29,20,1717589630,"~/xv6edk2/xv6/user.h"
+-'  29  20  ~/xv6edk2/xv6/user.h
+|4,39,29,20,1717589630,"~/xv6edk2/xv6/user.h"
+-'  29  20  ~/xv6edk2/xv6/user.h
+|4,39,29,20,1717589630,"~/xv6edk2/xv6/user.h"
+-'  29  20  ~/xv6edk2/xv6/user.h
+|4,39,29,20,1717589630,"~/xv6edk2/xv6/user.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
+-'  126  2  ~/xv6edk2/xv6/defs.h
+|4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
 -'  126  2  ~/xv6edk2/xv6/defs.h
 |4,39,126,2,1717502639,"~/xv6edk2/xv6/defs.h"
 -'  216  0  ~/xv6edk2/xv6/Makefile
 |4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
 -'  216  0  ~/xv6edk2/xv6/Makefile
 |4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
+-'  216  0  ~/xv6edk2/xv6/Makefile
+|4,39,216,0,1717502620,"~/xv6edk2/xv6/Makefile"
 -'  46  0  ~/xv6edk2/xv6/Makefile
 |4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
 -'  46  0  ~/xv6edk2/xv6/Makefile
 |4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717502601,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
+-'  46  0  ~/xv6edk2/xv6/Makefile
+|4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
 -'  46  0  ~/xv6edk2/xv6/Makefile
 |4,39,46,0,1717465838,"~/xv6edk2/xv6/Makefile"
 -'  46  0  ~/xv6edk2/xv6/Makefile
@@ -95,6 +209,62 @@
 |4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
 -'  44  0  ~/xv6edk2/xv6/Makefile
 |4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
+-'  44  0  ~/xv6edk2/xv6/Makefile
+|4,39,44,0,1717465828,"~/xv6edk2/xv6/Makefile"
 -'  25  6  ~/xv6edk2/xv6/Makefile
 |4,39,25,6,1717465788,"~/xv6edk2/xv6/Makefile"
 -'  25  6  ~/xv6edk2/xv6/Makefile
@@ -103,178 +273,60 @@
 |4,39,25,6,1717465788,"~/xv6edk2/xv6/Makefile"
 -'  25  6  ~/xv6edk2/xv6/Makefile
 |4,39,25,6,1717465788,"~/xv6edk2/xv6/Makefile"
--'  25  6  ~/xv6edk2/xv6/Makefile
-|4,39,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
--'  25  6  ~/xv6edk2/xv6/Makefile
-|4,39,25,6,1717465642,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465638,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465484,"~/xv6edk2/xv6/Makefile"
--'  10  6  ~/xv6edk2/xv6/Makefile
-|4,39,10,6,1717465484,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  201  6  ~/xv6edk2/xv6/Makefile
-|4,39,201,6,1717465470,"~/xv6edk2/xv6/Makefile"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  126  2  ~/xv6edk2/xv6/defs.h
-|4,39,126,2,1717464936,"~/xv6edk2/xv6/defs.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
--'  22  2  ~/xv6edk2/xv6/proc.h
-|4,39,22,2,1717464916,"~/xv6edk2/xv6/proc.h"
 
 # History of marks within files (newest to oldest):
+
+> ~/xv6edk2/xv6/recurse.c
+	*	1717591466	0
+	"	24	3
+	^	24	4
+	.	24	4
+	+	32	1
+	+	30	5
+	+	24	4
+	+	30	4
+	+	24	5
+	+	30	4
+	+	24	4
+
+> ~/xv6edk2/xv6/usys.S
+	*	1717589640	0
+	"	35	15
+	^	35	16
+	.	35	14
+	+	32	14
+	+	33	13
+	+	34	0
+	+	34	21
+	+	35	0
+	+	34	18
+	+	3	111
+	+	3	181
+	+	3	108
+	+	3	129
+	+	3	146
+	+	3	177
+	+	3	180
+	+	3	176
+	+	3	177
+	+	9	6
+	+	35	14
+
+> ~/xv6edk2/xv6/user.h
+	*	1717589623	0
+	"	29	20
+	^	29	21
+	.	29	20
+	+	26	22
+	+	27	21
+	+	23	16
+	+	26	3
+	+	27	23
+	+	27	54
+	+	27	23
+	+	28	36
+	+	43	11
+	+	29	20
 
 > ~/xv6edk2/xv6/defs.h
 	*	1717502631	0
@@ -374,22 +426,6 @@
 	+	57	0
 	+	54	0
 	+	56	2
-
-> ~/xv6edk2/xv6/user.h
-	*	1717464880	0
-	"	29	20
-	^	29	21
-	.	29	20
-	+	26	22
-	+	27	21
-	+	23	16
-	+	26	3
-	+	27	23
-	+	27	54
-	+	27	23
-	+	28	36
-	+	43	11
-	+	29	20
 
 > ~/xv6edk2/xv6/syscall.c
 	*	1717464866	0
@@ -499,18 +535,6 @@
 	+	413	14
 	+	399	14
 
-> ~/xv6edk2/xv6/recurse.c
-	*	1717052076	0
-	"	30	5
-	^	30	6
-	.	30	5
-	+	32	1
-	+	30	5
-	+	24	4
-	+	30	4
-	+	24	5
-	+	30	5
-
 > ~/xv6edk2/xv6/exec.c
 	*	1717051824	0
 	"	113	0
@@ -616,29 +640,6 @@
 	+	66	11
 	+	126	0
 	+	125	0
-
-> ~/xv6edk2/xv6/usys.S
-	*	1716869252	0
-	"	35	15
-	^	35	16
-	.	35	14
-	+	32	14
-	+	33	13
-	+	34	0
-	+	34	21
-	+	35	0
-	+	34	18
-	+	3	111
-	+	3	181
-	+	3	108
-	+	3	129
-	+	3	146
-	+	3	177
-	+	3	180
-	+	3	176
-	+	3	177
-	+	9	6
-	+	35	14
 
 > ~/xv6edk2/xv6/syscall.h
 	*	1716869171	0

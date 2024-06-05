@@ -344,9 +344,10 @@ copyuvm(pde_t* pgdir, uint sz)
         if (mappages(d, (void*)i, PGSIZE, V2P(mem), flags) < 0)
             goto bad;
     }
-    // Copy contents of stack to the new process
-    uint stack_top = USERTOP - PGSIZE;
-    for (i = stack_top; i < USERTOP; i += PGSIZE) {
+    uint t = TOP;
+    t = PGROUNDDOWN(t);
+
+    for (i = t; i > t - 1 * PGSIZE; i -= PGSIZE) {
         if ((pte = walkpgdir(pgdir, (void*)i, 0)) == 0)
             panic("copyuvm: pte should exist");
         if (!(*pte & PTE_P))
@@ -356,8 +357,10 @@ copyuvm(pde_t* pgdir, uint sz)
         if ((mem = kalloc()) == 0)
             goto bad;
         memmove(mem, (char*)P2V(pa), PGSIZE);
-        if (mappages(d, (void*)i, PGSIZE, V2P(mem), flags) < 0)
+        if (mappages(d, (void*)i, PGSIZE, V2P(mem), flags) < 0) {
+            kfree(mem);
             goto bad;
+        }
     }
     return d;
 

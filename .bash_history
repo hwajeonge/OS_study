@@ -1,21 +1,3 @@
-./run.sh
-ls
-cd xv6edk
-cd xv6edk2
-cd xv6
-ls
-mv _hello.c hello.c
-cd xv6edk2
-cd xv6
-ls
-cd xv6edk/xv6
-cd xv6edk2/xv6
-cat README
-grep run README
-;s
-ls
-cd xv6edk2/
-ls
 ./dbgrun.sh 
 gdb kernelmemfs
 cd xv6edk2/xv6
@@ -1994,6 +1976,24 @@ make clean
 make
 make clean
 make
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd ..
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
+make kernelmemfs
+cd .. 
+cp xv6/kernelmemfs image/kernel
+./run.sh
+cd xv6edk2
+cd xv6
 make kernelmemfs
 cd ..
 cp xv6/kernelmemfs image/kernel

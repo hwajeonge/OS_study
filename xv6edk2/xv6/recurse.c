@@ -21,13 +21,13 @@ int main(int argc, char *argv[]) {
         exit();
     }
 
-    //printpt(getpid()); // Uncomment for the test.
+    printpt(getpid()); // Uncomment for the test.
     n = atoi(argv[1]);
     printf(1, "Recursing %d levels\n", n);
     m = recurse(n);
     printf(1, "Yielded a value of %d\n", m);
 
-    //printpt(getpid()); // Uncomment for the test.
+    printpt(getpid()); // Uncomment for the test.
     exit();
 }
 

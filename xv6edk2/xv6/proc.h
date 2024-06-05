@@ -56,7 +56,6 @@ struct proc {
   uint stack_top;							 // Pointer to the most recent page
 };
 
-int printpt(int pid);
 
 
 // Process memory is laid out contiguously, low addresses first:
